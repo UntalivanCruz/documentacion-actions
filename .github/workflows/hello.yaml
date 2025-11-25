@@ -1,0 +1,8 @@
+name: Mi Primer Workflow
+on: [push]
+jobs:
+  saludar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo "¡Hola Mundo!"
