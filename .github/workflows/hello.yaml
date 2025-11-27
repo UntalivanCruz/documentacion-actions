@@ -2,7 +2,7 @@ name: Mi Primer Workflow
 on: [push]
 jobs:
   saludar:
-    runs-on: ubuntu-latest
+    runs-on: Ivans-MacBook-Pro
     steps:
       - uses: actions/checkout@v3
       - run: echo "¡Hola Mundo!"
